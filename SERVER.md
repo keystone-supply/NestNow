@@ -199,7 +199,7 @@ On a new Mac or Windows machine:
 2. Clone the repo:
 
    ```sh
-   git clone https://github.com/NestingNow/NestNow.git
+   git clone https://github.com/keystone-supply/NestNow.git
    cd NestNow
    ```
 

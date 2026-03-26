@@ -25,7 +25,7 @@
 1. Clone and install:
 
    ```sh
-   git clone https://github.com/NestingNow/NestNow.git
+   git clone https://github.com/keystone-supply/NestNow.git
    cd NestNow
    npm install
    npm run build
@@ -130,6 +130,7 @@ NestNow is a maintained fork in the deepnest family:
       - https://github.com/deepnest-io/Deepnest
         - https://github.com/deepnest-next/deepnest
           - https://github.com/NestingNow/NestNow
+            - https://github.com/keystone-supply/NestNow
 
 We are grateful to all previous maintainers and contributors. See `LICENSE` and `LICENSES.md` for license details (MIT plus third-party notices).
 
