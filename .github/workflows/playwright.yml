@@ -28,6 +28,10 @@ jobs:
         run: |
           # npm install
           npm ci
+
+      - name: Blocked dependency check
+        run: npm run security:blocked-deps
+
       - name: Fix Ubuntu 24.04 issue https://github.com/electron/electron/issues/17972
         if: startsWith(matrix.os, 'ubuntu')
         run: |

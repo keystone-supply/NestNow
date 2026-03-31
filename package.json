@@ -32,7 +32,8 @@
     "prepare": "husky || true",
     "precommit": "lint-staged",
     "postinstall": "electron-builder install-app-deps && patch-package",
-    "pw:codegen": "node helper_scripts/playwright_codegen.js"
+    "pw:codegen": "node helper_scripts/playwright_codegen.js",
+    "security:blocked-deps": "node scripts/security/check-blocked-packages.cjs"
   },
   "husky": {
     "hooks": {

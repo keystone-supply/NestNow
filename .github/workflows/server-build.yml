@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Blocked dependency check
+        run: npm run security:blocked-deps
+
       - name: Build (TypeScript + Electron deps)
         run: npm run build
 
